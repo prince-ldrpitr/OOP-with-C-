@@ -9,7 +9,7 @@ class teacher{
     string name;
     string subject;
     string dept_name;
-    // setter 
+    // setter  // member functions also call
     void setsalary(int s){
         salary = s;
     }
