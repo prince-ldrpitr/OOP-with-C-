@@ -14,14 +14,16 @@ public:
     Student(Student &s) {
         roll = s.roll;
     }
-
+    void show(){
+        cout<<"roll"<<roll<<endl;
+    }
     
 };
 
 int main() {
     Student s1 = {30033};   // Normal constructor
     Student s2 = s1;  // Copy constructor call
-    cout<<s1.roll<<endl;
-    cout<<s2.roll<<endl;
+    s1.show();
+    s2.show();
     return 0;
 }
