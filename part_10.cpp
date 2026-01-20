@@ -20,7 +20,7 @@ int main(){
     student s1("prince",8.54);
     s1.getinfo();
     cout<<endl;
-   student s2(s1);
+   student s2 = s1;
    s2.getinfo();
     return 0;
 }
